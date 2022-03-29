@@ -9,6 +9,9 @@
   role: Post-doctorate
   publis: 
 
+- name: Giovanni Bindi
+  role: PhD
+  
 - name: Antoine Caillon 
   github: https://github.com/caillonantoine
   role: PhD
@@ -20,7 +23,4 @@
   role: PhD
 
 - name: Constance Douwes
-  role: PhD
-
-- name: Giovanni Bindi
   role: PhD
