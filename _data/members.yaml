@@ -1,0 +1,26 @@
+- name: Philippe Esling
+  github: https://github.com/esling
+  site: https://esling.github.io/
+  role: Researcher
+
+- name: Axel Chemla--Romeu-Santos
+  github: domkirke.github.fr
+  soundcloud: https://soundcloud.com/user-859797836
+  role: Post-doctorate
+  publis: 
+
+- name: Antoine Caillon 
+  github: https://github.com/caillonantoine
+  role: PhD
+  twitter: https://twitter.com/antoine_caillon
+
+- name: Ninon Devis
+  github: https://github.com/ninon-io
+  site: https://ninon-io.github.io/
+  role: PhD
+
+- name: Constance Douwes
+  role: PhD
+
+- name: Giovanni Bindi
+  role: PhD

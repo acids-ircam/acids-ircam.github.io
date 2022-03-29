@@ -1,0 +1,11 @@
+elements:
+  - name: NIME2022
+    description: New tools and prospects for interaction with neural audio synthesis
+    url: "nime2022"
+
+nime2022:
+  pages: 
+    - {name: "NIME 2022 Workshop", url: "index.html"}
+    - {name: "Schedule", url: "schedule.html"}
+    - {name: "Assets and code", url: "assets.html"}
+    - {name: "Resources", url: "resources.html"}

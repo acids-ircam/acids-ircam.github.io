@@ -1,0 +1,30 @@
+{%- assign current_member = include.member | 0 -%}
+{%- if current_memebr != 0 -%}
+<div style="padding-top: 10px; padding-bottom: 10px">
+
+<h3 style="display: inline">
+{{ current_member.name }} 
+</h3>
+<h4 style="display: inline">
+{{ current_member.role}}
+</h4>
+<br/>
+
+{%- if current_member.github -%}
+<a href ="{{ current_member.github }}">Github</a>
+{%- endif -%}
+
+{%- if current_member.site -%}
+<a href ="{{ current_member.site }}" style="padding-left: 10px; padding-right: 10px">Site</a>
+{%- endif -%}
+
+{%- if current_member.soundcloud -%}
+<a href ="{{ current_member.soundcloud }}" style="padding-left: 10px; padding-right: 10px">Soundcloud</a>
+{%- endif -%}
+
+{%- if current_member.twitter -%}
+<a href ="{{ current_member.twitter }}" style="padding-left: 10px; padding-right: 10px">Twitter</a>
+{%- endif -%}
+
+</div>
+{%- endif -%}
