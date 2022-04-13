@@ -9,6 +9,9 @@
   role: Post-doctorate
   publis: 
 
+- name: Jean-Baptiste Dupuy
+  role: Developer
+  
 - name: Giovanni Bindi
   role: PhD
   
@@ -24,3 +27,12 @@
 
 - name: Constance Douwes
   role: PhD
+  
+- name: Nils Demerle
+  role: Intern
+  
+- name: David Genova
+  role: Intern
+  
+- name: Sarah Nabi
+  role: Intern
