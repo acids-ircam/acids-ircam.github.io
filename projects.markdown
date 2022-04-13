@@ -4,17 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-<div align="center">
-<h1>
-  <br>
-  <a href="http://acids.ircam.fr"><img src="images/acids.eps" alt="ACIDS" width="200"></a>
-  <br>
-  ACIDS Projects
-  <br>
-</h1>
 
-<h3>List of all available deep audio projects from <a href="http://acids.ircam.fr" target="_blank">ACIDS</a>.</h3>
+Here, we detail a list of usable projects and their quick description, along with templates for adapting future projects in MaxMsp, PureData, Max4Live, VST and porting to embedded platforms (Raspberry Pi and Jetson Nano). This repository is also meant to be used as a baseline for future documentation by the Forum.
 
+---
 <h4>
   <a href="#categories">Categories</a> •
   <a href="#projects">Projects</a> •
@@ -23,29 +16,7 @@ permalink: /projects/
   <a href="#availability">Availability</a> •
   <a href="#license">License</a>
 </h4>
-
-</div>
-
-This repository contains a list of usable projects and their quick description, along with templates for adapting future projects in MaxMsp, PureData, Max4Live, VST and porting to embedded platforms (Raspberry Pi and Jetson Nano). This repository is also meant to be used as a baseline for future documentation by the Forum.
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li> <a href="#categories">Categories</a> </li>
-    <li>
-      <a href="#projects"> ➤ Projects</a>
-      <ul>
-        <li><a href="#preprocessed-data">Pre-processed data</a></li>
-        <li><a href="#statistical-feature">Statistical feature</a></li>
-        <li><a href="#topological-feature">Topological feature</a></li>
-      </ul>
-    </li>
-    <li> <a href="#datasets">Datasets</a> </li>
-    <li> <a href="#templates">Templates</a> </li>
-    <li> <a href="#availability">Availability</a> </li>
-    <li> <a href="#license">License</a> </li>
-  </ol>
-</details>
+---
 
 ## Categories
 
