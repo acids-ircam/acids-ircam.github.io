@@ -7,6 +7,12 @@ layout: home
 
 {%- include header.html -%}
 
+<object data="images/acids.eps" type="application/pdf" width="700px" height="700px">
+    <embed src="images/acids.eps">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://www.africau.edu/images/default/sample.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 The Artificial Creative Intelligence and Data Science (ACIDS) group at IRCAM aims to model musical creativity by extending probabilistic learning approaches to the use of multivariate and multimodal time series. Our main object of study lies in the properties and perception of musical synthesis and artificial creativity. In this context, we experiment with deep AI models applied to creative materials, aiming to develop artificial creative intelligence. Our work aims to decipher both complex temporal relationships, and also analyze musical information located at the exact intersection between symbolic (musical writing) and signal (audio recording) representations. Our team has produced many prototypes of innovative instruments and musical pieces in collaborations with renowned composers. 
 
 Here you can find all informations on 
