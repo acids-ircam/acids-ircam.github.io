@@ -11,11 +11,9 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 
 ## Details
 
-<h4>
+<h4 align="center">
   <a href="#categories">Categories</a> •
   <a href="#projects">Projects</a> •
-  <a href="#datasets">Datasets</a> •
-  <a href="#templates">Templates</a> •
   <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
 </h4>
@@ -33,24 +31,8 @@ Our different projects fall into four major categories
 ## Projects
 
 ### Generation
+
 This category includes all model that allow to synthesize signal, based on different paradigms.
-
----
-
-#### DDSP: Differentiable Digital Signal Processing 
-[![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
-[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
-
-**Available plugins** 
-[![Full repository](https://img.shields.io/badge/PureData-_-7DA416.svg?style=flat-square&logo=Apple)]()
-[![Full repository](https://img.shields.io/badge/PureData-_-7DA416.svg?style=flat-square&logo=Linux)]()
-
-**Friend summary.** The [DDSP model](https://github.com/magenta/ddsp) mixes DSP with deep learning. The cool thing is that it is lightweight and controls understandable synthesis blocks (harmonic synth and filtered noise). Also, the control signals are known descriptors (f0 and loudness). But this seriously limits the type of signal that can be modeled (monophonic and harmonic). Also the control descriptors must have good expressivity, otherwise the synthesized sound is a bit crappy. This implementation can be exported to a torchscript model, ready to be used inside a realtime environment (see [this video](https://www.youtube.com/watch?v=_U6Bn-1FDHc)).
-
-**Scientific summary.** Differentiable Digital Signal Processing (DDSP) library, which enables direct integration of classic signal processing elements with deep learning methods. Focusing on audio synthesis, we achieve high-fidelity generation without the need for large autoregressive models or adversarial losses, demonstrating that DDSP enables utilizing strong inductive biases without losing the expressive power of neural networks. Further, we show that combining interpretable modules permits manipulation of each separate model component, with applications such as independent control of pitch and loudness, realistic extrapolation to pitches not seen during training, blind dereverberation of room acoustics, transfer of extracted room acoustics to new environments, and transformation of timbre between disparate sources. In short, DDSP enables an interpretable and modular approach to generative modeling, without sacrificing the benefits of deep learning.
-
-**Works best for** *timbre transfer to monophonic instruments*
 
 
 ---
@@ -70,6 +52,23 @@ This category includes all model that allow to synthesize signal, based on diffe
 **Scientific summary.** RAVE is a variational autoencoder for fast and high-quality neural audio synthesis. The RAVE model allows both fast and high-quality audio waveform synthesis, by using a novel two-stage training procedure, namely representation learning and adversarial fine-tuning. Using a post-training analysis of the latent space allows a direct control between the reconstruction fidelity and the representation compactness. By leveraging a multi-band decomposition of the raw waveform, we show that our model is the first able to generate 48kHz audio signals, while simultaneously running 20 times faster than real-time on a standard laptop CPU. We evaluate synthesis quality using both quantitative and qualitative subjective experiments and show the superiority of our approach compared to existing models. Finally, we present applications of our model for timbre transfer and signal compression. All of our source code and audio examples are publicly available
 
 **Works best for** *timbre transfer to any sound* and *prior (self-sufficient) generation*
+
+---
+
+#### DDSP: Differentiable Digital Signal Processing 
+[![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
+[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
+
+**Available plugins** 
+[![Full repository](https://img.shields.io/badge/PureData-_-7DA416.svg?style=flat-square&logo=Apple)]()
+[![Full repository](https://img.shields.io/badge/PureData-_-7DA416.svg?style=flat-square&logo=Linux)]()
+
+**Friend summary.** The [DDSP model](https://github.com/magenta/ddsp) mixes DSP with deep learning. The cool thing is that it is lightweight and controls understandable synthesis blocks (harmonic synth and filtered noise). Also, the control signals are known descriptors (f0 and loudness). But this seriously limits the type of signal that can be modeled (monophonic and harmonic). Also the control descriptors must have good expressivity, otherwise the synthesized sound is a bit crappy. This implementation can be exported to a torchscript model, ready to be used inside a realtime environment (see [this video](https://www.youtube.com/watch?v=_U6Bn-1FDHc)).
+
+**Scientific summary.** Differentiable Digital Signal Processing (DDSP) library, which enables direct integration of classic signal processing elements with deep learning methods. Focusing on audio synthesis, we achieve high-fidelity generation without the need for large autoregressive models or adversarial losses, demonstrating that DDSP enables utilizing strong inductive biases without losing the expressive power of neural networks. Further, we show that combining interpretable modules permits manipulation of each separate model component, with applications such as independent control of pitch and loudness, realistic extrapolation to pitches not seen during training, blind dereverberation of room acoustics, transfer of extracted room acoustics to new environments, and transformation of timbre between disparate sources. In short, DDSP enables an interpretable and modular approach to generative modeling, without sacrificing the benefits of deep learning.
+
+**Works best for** *timbre transfer to monophonic instruments*
 
 ---
 
@@ -115,6 +114,8 @@ This category includes all model that allow to synthesize signal, based on diffe
 
 ---
 
+
+
 ### Control
 
 ---
@@ -134,6 +135,8 @@ This category includes all model that allow to synthesize signal, based on diffe
 **Works best for** *finding synth parameters from audio*, *automatic macro-controls*, *quick exploration of synths*, 
 
 ---
+
+
 
 ### Hardware
 
