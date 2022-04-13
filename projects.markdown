@@ -9,11 +9,12 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 
 ## Overview
 
-<h4>Neurorack</h4> [![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/ninon-io/Impact-Synth-Hardware) 
+**Neurorack** // Embedded deep audio synthesis in Eurorack format
+
+[![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/neurorack) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
             
-Embedded deep audio synthesis in Eurorack format
 
 **RAVE** 
 
