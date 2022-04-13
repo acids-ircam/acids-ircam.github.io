@@ -7,7 +7,45 @@ permalink: /projects/
 
 Here, we detail a list of all usable projects created by ACIDS and their quick description, along with indications for availability in MaxMsp, PureData, Max4Live, VST and porting to embedded platforms (Raspberry Pi and Jetson Nano). All of the projects here are resolutely open-source under a CC-BY-NC-SA 4.0 licence. We first give a quick overview of all the projects and then provide more detailed information.
 
-## Projects
+## Overview
+
+
+#### Neurorack: Embedded deep audio synthesis in Eurorack format
+
+[![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/ninon-io/Impact-Synth-Hardware) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
+[![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
+
+#### RAVE: Real-time Audio Variational auto-Encoder
+
+[![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-2111.05011-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2111.05011)
+[![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
+
+#### FlowSynth: Universal audio synthesizer control
+
+[![Full repository](https://img.shields.io/badge/Github-flow_synth-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/flow_synthesizer) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
+[![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=UufQwUitBIw)
+
+#### DDSP: Differentiable Digital Signal Processing 
+
+[![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
+[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
+
+#### VSChaos: 
+
+[![Full repository](https://img.shields.io/badge/Gitlab-vschaos-7DA416.svg?style=flat-square&logo=Gitlab)](https://forge-2.ircam.fr/chemla/vschaos) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-None-7D1616.svg?style=flat-square&logo=arXiv)]()
+[![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
+
+#### WaVAE: Waveform Variational Auto-Encoder
+
+[![Full repository](https://img.shields.io/badge/Github-wavae-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/wavae) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-None-7D1616.svg?style=flat-square&logo=arXiv)]()
+[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=Q3Ejm_ll6KU)
+
 
 ## Details
 
