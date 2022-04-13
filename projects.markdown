@@ -10,7 +10,7 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 ## Projects
 
 ## Details
----
+
 <h4>
   <a href="#categories">Categories</a> •
   <a href="#projects">Projects</a> •
@@ -19,6 +19,7 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
   <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
 </h4>
+
 ---
 
 ## Categories
