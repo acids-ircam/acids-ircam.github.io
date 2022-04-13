@@ -9,22 +9,20 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 
 ## Overview
 
-[**Neurorack**](https://github.com/acids-ircam/neurorack) // Embedded deep audio synthesis in Eurorack format
+[**Neurorack**](https://github.com/acids-ircam/neurorack) // The Neurorack is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. It can embed any deep synthesis model on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The first model available is a deep impact synthesizer
 
 [![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/neurorack) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
             
 
-**RAVE** 
+**RAVE** // The Real-time Audio Variational auto-Encoder (RAVE) is a deep audio model that allows to transform your voice (or any input sound) into a violin, a darbouka (or any sound in the world) in real-time. It is available as a VST plugin or a MaxMsp / PureData external.
 
 [![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-2111.05011-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2111.05011)
 [![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
 
-Real-time Audio Variational auto-Encoder
-
-#### FlowSynth: Universal audio synthesizer control
+**FlowSynth** The FlowSynth provides universal audio synthesizer control. This model allows to find the parameters settings of a synthesizer that best imitate any given wav file in real-time. 
 
 [![Full repository](https://img.shields.io/badge/Github-flow_synth-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/flow_synthesizer) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
@@ -188,7 +186,7 @@ This category includes all model that allow to synthesize signal, based on diffe
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
 
-**Scientific summary.** The Neurorack, is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. The system is based on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The hardware part features 4 CV and 2 Gates (along with a screen, rotary and button for handling the menus), which all communicate with specific Python libraries. Note that the behavior of these controls (and the module itself) is highly dependent on the type of deep model embedded. For this first version of the Neurorack, we implemented a descriptor-based impact sounds generator.
+**Scientific summary.** The Neurorack is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. The system is based on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The hardware part features 4 CV and 2 Gates (along with a screen, rotary and button for handling the menus), which all communicate with specific Python libraries. Note that the behavior of these controls (and the module itself) is highly dependent on the type of deep model embedded. For this first version of the Neurorack, we implemented a descriptor-based impact sounds generator.
 
 ## Acknowledgements
 
