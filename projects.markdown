@@ -16,7 +16,7 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
             
 
-**RAVE** // The Real-time Audio Variational auto-Encoder (RAVE) is a deep audio model that allows to transform your voice (or any input sound) into a violin, a darbouka (or any sound in the world) in real-time. It is available as a VST plugin or a MaxMsp / PureData external.
+[**RAVE**] // The Real-time Audio Variational auto-Encoder (RAVE) is a deep audio model that allows to transform your voice (or any input sound) into a violin, a darbouka (or any sound in the world) in real-time. It is available as a VST plugin or a MaxMsp / PureData external.
 
 [![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-2111.05011-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2111.05011)
