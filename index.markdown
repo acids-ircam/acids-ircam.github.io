@@ -24,6 +24,6 @@ Our highlight [projects](projects)
 
 - [Neurorack](http://www.gitub.com/acids-ircam/neurorack) // the first deep AI-based eurorack synthesizer
 - [RAVE](http://www.gitub.com/acids-ircam/rave) // a VST to transform your voice into a violin (or any sound in the world) in real-time.
-- [FlowSynth](http://www.gitub.com/acids-ircam/flow_synthesizer) // a learning-based device that allows to travel auditory spaces of synthesizers, simply by moving your hand
+- [FlowSynth](http://www.gitub.com/acids-ircam/flow_synthesizer) // find the presets of a synthesizer from a wav file
 
 Our work aims to decipher both complex temporal relationships, and also analyze musical information located at the exact intersection between symbolic (musical writing) and signal (audio recording) representations. Our team has produced many prototypes of innovative instruments and musical pieces in collaborations with renowned composers. 
