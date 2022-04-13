@@ -5,15 +5,18 @@ permalink: /projects/
 ---
 
 
-Here, we detail a list of usable projects and their quick description, along with templates for adapting future projects in MaxMsp, PureData, Max4Live, VST and porting to embedded platforms (Raspberry Pi and Jetson Nano). This repository is also meant to be used as a baseline for future documentation by the Forum.
+Here, we detail a list of all usable projects created by ACIDS and their quick description, along with indications for availability in MaxMsp, PureData, Max4Live, VST and porting to embedded platforms (Raspberry Pi and Jetson Nano). All of the projects here are resolutely open-source under a CC-BY-NC-SA 4.0 licence. We first give a quick overview of all the projects and then provide more detailed information.
 
+## Projects
+
+## Details
 ---
 <h4>
   <a href="#categories">Categories</a> •
   <a href="#projects">Projects</a> •
   <a href="#datasets">Datasets</a> •
   <a href="#templates">Templates</a> •
-  <a href="#availability">Availability</a> •
+  <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
 </h4>
 ---
@@ -143,71 +146,9 @@ This category includes all model that allow to synthesize signal, based on diffe
 
 **Scientific summary.** This project documents the Neurorack, which is a deep AI-based synthesizer based on the Jetson Nano development kit in a EuroRack format. The following diagram briefly explains the overall structure of the module and the relations between the hardware and software (green) components. The hardware part features 4 CV and 2 Gates (along with a screen, rotary and button for handling the menus), which all communicate with specific Python libraries. Note that the behavior of these controls (and the module itself) is highly dependent on the type of deep model embedded. For this first version of the Neurorack, we implemented a descriptor-based impact sounds generator.
 
----
-
-### Others
-
----
-
-## Datasets
-
-- Studio On Line (SOL)
-- NSynth
-
-## Templates
-
-### MaxMsp
-
-@AntoineCaillon, @AxelChemla, @PhilippeEsling
-
-### PureData
-
-@AntoineCaillon, @PhilippeEsling
-
-### Max4Live
-
-@PhilippeEsling
-
-### VST
-
-@AntoineCaillon, @AxelChemla, @JeanBaptisteDupuy
-
-### Embedded
-
-#### Raspberry Pi
-
-@AntoineCaillon, @NinonDevis, @JeanBaptisteDupuy, @PhilippeEsling
-
-#### Jetson Nano
-
-@NinonDevis, @PhilippeEsling
-
-## Availability
-
-### Models plugins
-
-| Models                       | MaxMsp    | PureData  | Max4Live    | VST       | Embedded    | OS          |
-|------------------------------|:---------:|:---------:|:-----------:|:---------:|:-----------:|:-----------:|
-| DDSP                         | √         | √         |             |           | √           |
-| RAVE                         | √         | √         |             |           | √           |
-| VSChaos                      |           |           |             |           |             |
-| WaVAE                        |           | √         |             |           |             |
-| Timbre                       |           |           |             |           |             |
-|                              |           |           |             |           |             |
-| FlowSynth                    | √         |           | √           |           |             |
-
-## Contributing
-
-Please take a look at our [contributing](CONTRIBUTING.md) guidelines if you're interested in helping!
-
-#### Pending Features
-- Export model
-- Support for multiple sklearn SVM models
-- Visualization for models with more than 2 features
-
 ## Acknowledgements
 
 
 ## Copyright and license
 
-Code and documentation copyright 2012-2022 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+Code and documentation copyright 2012-2022 by all members of ACIDS. Code released under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
