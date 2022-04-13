@@ -37,6 +37,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+
 include: ['/workshops', '/workshops/nime2022']
 
 
