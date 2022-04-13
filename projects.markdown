@@ -10,17 +10,20 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 ## Overview
 
 
-#### Neurorack: Embedded deep audio synthesis in Eurorack format
-
+**Neurorack**
 [![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/ninon-io/Impact-Synth-Hardware) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
 
-#### RAVE: Real-time Audio Variational auto-Encoder
+Embedded deep audio synthesis in Eurorack format
+
+**RAVE** 
 
 [![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-2111.05011-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2111.05011)
 [![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
+
+Real-time Audio Variational auto-Encoder
 
 #### FlowSynth: Universal audio synthesizer control
 
