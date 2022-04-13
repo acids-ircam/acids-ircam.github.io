@@ -30,7 +30,7 @@ facebook_username: acids.ircam0
 instagram_username: acids_ircam
 github_username: acids-ircam 
 # relative_permalinks: false
-header_pages: ['about.markdown', 'team.markdown', 'projects.markdown', 'workshops/index.md']
+header_pages: ['projects.markdown', 'music.markdown', 'workshops/index.md', 'team.markdown']
 
 # Build settings
 theme: minima
