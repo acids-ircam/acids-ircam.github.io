@@ -18,10 +18,10 @@ Here you can find all informations on
 - The [team](team) behind all these wonders
 - Different [workshops](workshops) that we organize
 
-Our highlight projects
+Our highlight [projects]
 
-1/ Neurorack // the first deep AI-based eurorack synthesizer
-2/ FlowSynth // a learning-based device that allows to travel auditory spaces of synthesizers, simply by moving your hand
-3/ RAVE // a VST that allows to transform your voice into a violin or a darbouka (or any sound in the world) in real-time.
+- [Neurorack]() // the first deep AI-based eurorack synthesizer
+- [RAVE]() // a VST that allows to transform your voice into a violin or a darbouka (or any sound in the world) in real-time.
+- [FlowSynth]() // a learning-based device that allows to travel auditory spaces of synthesizers, simply by moving your hand
 
 Our work aims to decipher both complex temporal relationships, and also analyze musical information located at the exact intersection between symbolic (musical writing) and signal (audio recording) representations. Our team has produced many prototypes of innovative instruments and musical pieces in collaborations with renowned composers. 
