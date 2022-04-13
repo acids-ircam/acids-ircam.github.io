@@ -9,38 +9,38 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 
 ## Overview
 
-[**Neurorack**](https://github.com/acids-ircam/neurorack) // The Neurorack is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. It can embed any deep synthesis model on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The first model available is a deep impact synthesizer
+[**Neurorack**](https://github.com/acids-ircam/neurorack) // The Neurorack is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. It can embed any deep synthesis model on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The first model available is a deep impact synthesizer.
 
 [![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/neurorack) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
             
 
-[**RAVE**] // The Real-time Audio Variational auto-Encoder (RAVE) is a deep audio model that allows to transform your voice (or any input sound) into a violin, a darbouka (or any sound in the world) in real-time. It is available as a VST plugin or a MaxMsp / PureData external.
+[**RAVE**](https://github.com/acids-ircam/rave) // The Real-time Audio Variational auto-Encoder (RAVE) is a deep audio model that allows to transform your voice (or any input sound) into a violin, a darbouka (or any sound in the world) in real-time. It is available as a freshly developed VST plugin or a MaxMsp / PureData external, with a set of downloadable models.
 
-[![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Full repository](https://img.shields.io/badge/Github-rave-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/rave) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-2111.05011-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2111.05011)
 [![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
 
-**FlowSynth** The FlowSynth provides universal audio synthesizer control. This model allows to find the parameters settings of a synthesizer that best imitate any given wav file in real-time. 
+[**FlowSynth**](https://github.com/acids-ircam/flow_synthesizer) // The FlowSynth provides universal audio synthesizer control. This model allows to find the parameters settings of a synthesizer that best imitate any given wav file in real-time. It also greatly simplify the use of any synthesizer by compressing its >200 parameters into only 16.
 
 [![Full repository](https://img.shields.io/badge/Github-flow_synth-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/flow_synthesizer) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=UufQwUitBIw)
 
-#### DDSP: Differentiable Digital Signal Processing 
+[**DDSP**](https://github.com/acids-ircam/ddsp_pytorch) // The Differentiable Digital Signal Processing (DDSP) model was originally developed by the Magenta team at Google. It allows to perform timbre transfer in real-time for monophonic signals. We provide a Max4Live and PD real-time porting available to all.
 
 [![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
 [![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
 
-#### VSChaos: 
+[**VSChaos**](https://forge-2.ircam.fr/chemla/vschaos) // VSChaos is an open-source Python library for variational neural audio synthesis. This library, based on pytorch, allows high-level functions for creating, training, and using many variants of variational auto-encoding. It is available as a set of Max patches for real-time / offline generation.
 
 [![Full repository](https://img.shields.io/badge/Gitlab-vschaos-7DA416.svg?style=flat-square&logo=Gitlab)](https://forge-2.ircam.fr/chemla/vschaos) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-None-7D1616.svg?style=flat-square&logo=arXiv)]()
 [![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
 
-#### WaVAE: Waveform Variational Auto-Encoder
+[**WaVAE**](https://github.com/acids-ircam/wavae) // The Waveform Variational Auto-Encoder (WaVAE) is a real-time timbre transfer model. Despite its name, its not a waveform based VAE, but a melspec one with a melGAN decoder.
 
 [![Full repository](https://img.shields.io/badge/Github-wavae-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/wavae) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-None-7D1616.svg?style=flat-square&logo=arXiv)]()
