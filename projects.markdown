@@ -9,7 +9,7 @@ Here, we detail a list of all usable projects created by ACIDS and their quick d
 
 ## Overview
 
-**Neurorack** // Embedded deep audio synthesis in Eurorack format
+[**Neurorack**](https://github.com/acids-ircam/neurorack) // Embedded deep audio synthesis in Eurorack format
 
 [![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/neurorack) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
@@ -184,11 +184,11 @@ This category includes all model that allow to synthesize signal, based on diffe
 
 #### Neurorack: Embedded deep audio synthesis in Eurorack format
 
-[![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/ninon-io/Impact-Synth-Hardware) 
+[![Full repository](https://img.shields.io/badge/Github-neurorack-7DA416.svg?style=flat-square&logo=Github)](https://github.com/acids-ircam/neurorack) 
 [![Published in ArXiV](https://img.shields.io/badge/Paper-1907.00971-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/1907.00971)
 [![Video on YouTube](https://img.shields.io/badge/Video-Max4Live-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=64VpQenCHVs)
 
-**Scientific summary.** This project documents the Neurorack, which is a deep AI-based synthesizer based on the Jetson Nano development kit in a EuroRack format. The following diagram briefly explains the overall structure of the module and the relations between the hardware and software (green) components. The hardware part features 4 CV and 2 Gates (along with a screen, rotary and button for handling the menus), which all communicate with specific Python libraries. Note that the behavior of these controls (and the module itself) is highly dependent on the type of deep model embedded. For this first version of the Neurorack, we implemented a descriptor-based impact sounds generator.
+**Scientific summary.** The Neurorack, is the first hardware deep AI-based synthesizer, which fits in a Eurorack format. The system is based on the Jetson Nano development kit with a homemade circuit in a EuroRack format. The hardware part features 4 CV and 2 Gates (along with a screen, rotary and button for handling the menus), which all communicate with specific Python libraries. Note that the behavior of these controls (and the module itself) is highly dependent on the type of deep model embedded. For this first version of the Neurorack, we implemented a descriptor-based impact sounds generator.
 
 ## Acknowledgements
 
