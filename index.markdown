@@ -7,9 +7,9 @@ layout: home
 
 {%- include header.html -%}
 <div style="display:inline-block;vertical-align:top;">
-<img src="images/acids_white_bg.png" alt="ACIDS" width="200" style="float:left;padding:10px">
+<img src="images/acids_white_bg.png" alt="ACIDS" width="200" style="float:left;">
 </div>
-<div style="display:inline-block;">
+<div style="display:inline-block;padding:10px">
 The Artificial Creative Intelligence and Data Science (ACIDS) group at IRCAM aims to model musical creativity by extending probabilistic learning approaches to the use of multivariate and multimodal time series. Our main object of study lies in the properties and perception of musical synthesis and artificial creativity. In this context, we experiment with deep AI models applied to creative materials, aiming to develop artificial creative intelligence.
 </div>
 
