@@ -21,6 +21,6 @@ Here you can find all informations on
 
 Our highlight [projects](projects)
 
-- [Neurorack](http://www.gitub.com/acids-ircam/neurorack) // the first deep AI-based eurorack synthesizer
-- [RAVE](http://www.gitub.com/acids-ircam/rave) // a realtime audio variational auto-encoder for timbre transfer, unconditional generation or latent manipulation. Available as max/msp and puredata externals, as well as a VST plugin.
-- [FlowSynth](http://www.gitub.com/acids-ircam/flow_synthesizer) // find the presets of a synthesizer from a wav file
+- [Neurorack](http://www.github.com/acids-ircam/neurorack) // the first deep AI-based eurorack synthesizer
+- [RAVE](http://www.github.com/acids-ircam/rave) // a realtime audio variational auto-encoder for timbre transfer, unconditional generation or latent manipulation. Available as max/msp and puredata externals, as well as a VST plugin.
+- [FlowSynth](http://www.github.com/acids-ircam/flow_synthesizer) // find the presets of a synthesizer from a wav file
