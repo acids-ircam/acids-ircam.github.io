@@ -9,6 +9,7 @@ layout: page_custom
 
 We propose three different hands-on session, can be performed consecutively or simultaneously, depending on the amount of interested people. If you are interested in one of these three sessions, please check the material pre-requistites listed below. The repositories gathering all the needed code can be found here : (added the day of the workshop).
 
+___
 ### Workshop 1 : RAVE & Max/MSP
 
 *Main referees : Antoine Caillon*
