@@ -12,7 +12,6 @@ For a general resource on third-party resources, please see the [Resources](Reso
   <a href="#categories">Categories</a> •
   <a href="#projects">Projects</a> •
   <a href="#datasets">Datasets</a> •
-  <a href="#templates">Templates</a> •
   <a href="#availability">Availability</a> •
   <a href="#license">License</a>
 </h4>
@@ -31,7 +30,6 @@ This repository contains a list of usable projects and their quick description, 
         <li><a href="#topological-feature">Topological feature</a></li>
       </ul>
     </li>
-    <li> <a href="#datasets">Datasets</a> </li>
     <li> <a href="#templates">Templates</a> </li>
     <li> <a href="#availability">Availability</a> </li>
     <li> <a href="#license">License</a> </li>
