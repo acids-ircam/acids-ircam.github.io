@@ -22,7 +22,7 @@ Learn to embed spectral VAEs and RAVE into Max/MSP or PureData to explore them, 
 ___
 ### Workshop 2 : Embedding on hardware
 
-*Main referees : Jean-Baptiste Dupuy, David Genova, Nils Demerlé*
+*Main referees : Jean-Baptiste Dupuy,, Nils Demerlé, David Genova*
 
 Learn to embed machine learning models on RaspeberryPi, and whether how to remotely control them with an external webpage (from your phone, computer, or whatever), or to perform automatic generation for exhibitions / installations. 
 
