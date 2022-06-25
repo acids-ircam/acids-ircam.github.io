@@ -7,7 +7,7 @@ layout: page_custom
 
 # Requirements for hands-on session.
 
-We propose three different hdans-on session, can be performed consecutively or simultaneously, depending on the amount of interested people. If you are interested in one of these three sessions, please check the material pre-requistites listed below.
+We propose three different hands-on session, can be performed consecutively or simultaneously, depending on the amount of interested people. If you are interested in one of these three sessions, please check the material pre-requistites listed below. The repositories gathering all the needed code can be found here : (added the day of the workshop).
 
 ### Workshop 1 : RAVE & Max/MSP
 Learn to embed spectral VAEs and RAVE into Max/MSP or PureData to explore them, and use it in your future patches. 
@@ -30,6 +30,7 @@ Learn to embed machine learning models on RaspeberryPi, and whether how to remot
 ___
 ### Workshop 3 : Exploring & hijacking neural synthesis models.
 Explore fix different pre-trained and wrapped models (VAE, RAVE, GAN, Diffusion, DDSP) directly in Python notebooks. After exploring manually the models, we will also try different methods to hijack / alter / transfer the models to generate alternative content. **No skill in Python needed!**
+
 **Requirements**:
 - Linux / Max / Windows computer
 
