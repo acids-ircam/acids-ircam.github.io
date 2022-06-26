@@ -13,11 +13,13 @@ ___
 ### Workshop 1 : RAVE & Max/MSP
 
 *Main referees : Antoine Caillon*
+
 Learn to embed spectral VAEs and RAVE into Max/MSP or PureData to explore them, and use it in your future patches. 
 
 **Requirements** : 
 - Linux / Mac / Windows computer 
 - [PureData](https://puredata.info/) (free) and/or [Max](https://cycling74.com/downloads)
+- Google Drive account
 
 ___
 ### Workshop 2 : Embedding on hardware
@@ -44,6 +46,7 @@ Explore fix different pre-trained and wrapped models (VAE, RAVE, GAN, Diffusion,
 
 **Requirements**:
 - Linux / Max / Windows computer
+- Google Drive account
 
 ___
 ### Bonus : Workshop X
