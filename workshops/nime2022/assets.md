@@ -21,6 +21,8 @@ Learn to embed spectral VAEs and RAVE into Max/MSP or PureData to explore them, 
 - [PureData](https://puredata.info/) (free) and/or [Max](https://cycling74.com/downloads)
 - Google Drive account
 
+[More informations and resources are available here](https://caillonantoine.github.io/NIME_workshop/)
+
 ___
 ### Workshop 2 : Embedding on hardware
 
