@@ -31,6 +31,10 @@ ___
 Learn to embed machine learning models on RaspeberryPi, and whether how to remotely control them with an external webpage (from your phone, computer, or whatever), or to perform automatic generation for exhibitions / installations. 
 
 
+[raspberry pi code](https://github.com/dgenova/RAVEberry-server)
+
+[Computer code](https://github.com/ZodiacFRA/RaveBerry)
+
 **Requirements** : 
 - Linux / Max / Wnidows computer
 - RaspberryPi **4** (previous versions not supported)
@@ -45,6 +49,7 @@ ___
 
 Explore fix different pre-trained and wrapped models (VAE, RAVE, GAN, Diffusion, DDSP) directly in Python notebooks. After exploring manually the models, we will also try different methods to hijack / alter / transfer the models to generate alternative content. **No skill in Python needed!**
 
+[![colab_badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bYDFpTWBQRvFYtx1T-ShvoNIu-XvlH7r?usp=sharing)
 
 **Requirements**:
 - Linux / Max / Windows computer
@@ -56,5 +61,7 @@ ___
 *Main referees : Axel Chemla--Romeu-Santos, Constance Douwes, Sarah Nabi*
 
 This workshop can be thought as the *black diamond trail* of the hands-on session, addressed to skilled users that would like to run over the three workshops in a short time. First, you will find a tutorial to implement your own spectral variational auto-encoder here : (added the day of the workshop). After that, you can catch a running session or roam the workshop support pages to export your model for Max/Pure Data, Raspberry Pi, or start hacking your model (it should train quite fast on CoLab). Of course, you will not be alone : we'll be here to support!
+
+[![colab_badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1G3kR5PXSTNH5nsgYiqvstvQzdMx4b9kH?usp=sharing)
 
 
