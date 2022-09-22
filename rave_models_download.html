@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    
     <title>RAVE models</title>
     <meta charset="utf-8">
     <meta name="author" content="IRCAM's ACIDS team">
@@ -25,20 +26,21 @@
         }
         table {
             font-family: arial, sans-serif;
+            text-transform: capitalize;
             border-collapse: collapse;
             width: 100%;
             margin-bottom: 20px;
         }
         td, th {
-            border: 1px solid #424242;
+            border: 1px solid #aaaaaa;
             text-align: left;
             padding: 8px;
         }
         tr:nth-child(even) {
-            color: #fdfdfd;
-            background-color: #424242;
+            background-color: #eeeeee;
         }
     </style>
+
 </head>
 <body>
     <h1>Rave models download page</h1>
@@ -51,23 +53,9 @@
             <th>Author</th>
             <th>Description</th>
         </tr>
-
     </table>
 
-    <div>
-        <select id="select"></select>
-         <button onclick="downloadModel()">Download</button>
-    </div>
     <script type="text/javascript">
-        function downloadModel() {
-            var selectList = document.getElementById("select");
-            var value = selectList.value;
-            var a = document.createElement("a");
-            a.href = "https://play.forum.ircam.fr/rave-vst-api/get_model/" + value;
-            a.setAttribute("download", value + ".ts");
-            a.click();
-        }
-
         function addToPage(modelName, modelData) {
             // Add to the table
             var table = document.getElementById("modelsTable");
@@ -77,17 +65,17 @@
             var release = row.insertCell(2);
             var author = row.insertCell(3);
             var description = row.insertCell(4);
-            name.innerHTML = modelName;
+
+            var a = document.createElement("a");
+            a.href = "https://play.forum.ircam.fr/rave-vst-api/get_model/" + modelName;
+            a.text = modelName;
+            a.setAttribute("download", modelName + ".ts");
+
+            name.appendChild(a);
             version.innerHTML = modelData["Version"];
             release.innerHTML = modelData["Date"];
             author.innerHTML = modelData["Author"];
             description.innerHTML = modelData["Description"];
-            // Now add to the select
-            var selectList = document.getElementById("select");
-            var option = document.createElement("option");
-            option.value = modelName;
-            option.text = modelName;
-            selectList.appendChild(option);
         }
 
         const getAvailableModels = async () => {
