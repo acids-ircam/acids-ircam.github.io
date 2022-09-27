@@ -49,6 +49,7 @@
         <tr>
             <th>Model name</th>
             <th>Version</th>
+            <th>Model</th>
             <th>Release date</th>
             <th>Author</th>
             <th>Description</th>
@@ -62,9 +63,10 @@
             var row = table.insertRow(1);
             var name = row.insertCell(0);
             var version = row.insertCell(1);
-            var release = row.insertCell(2);
-            var author = row.insertCell(3);
-            var description = row.insertCell(4);
+            var model = row.insertCell(2);
+            var release = row.insertCell(3);
+            var author = row.insertCell(4);
+            var description = row.insertCell(5);
 
             var a = document.createElement("a");
             a.href = "https://play.forum.ircam.fr/rave-vst-api/get_model/" + modelName;
@@ -73,6 +75,7 @@
 
             name.appendChild(a);
             version.innerHTML = modelData["Version"];
+            model.innerHTML = modelData["Model"];
             release.innerHTML = modelData["Date"];
             author.innerHTML = modelData["Author"];
             description.innerHTML = modelData["Description"];
