@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ACIDS Team
+title: ACIDS-IRCAM 
 email: acids.ircam@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Artificial Creative Intelligence and Data Science (ACIDS) group is part of the RepMus team 
@@ -30,7 +30,7 @@ facebook_username: acids.ircam0
 instagram_username: acids_ircam
 github_username: acids-ircam 
 # relative_permalinks: false
-header_pages: ['projects.markdown', 'music.markdown', 'workshops/index.md', 'team.markdown']
+header_pages: ['projects.markdown', 'articles.md', 'music.markdown', 'workshops/index.md', 'team.markdown']
 
 # Build settings
 theme: minima
@@ -42,7 +42,6 @@ minima:
   date_format: "%b %-d, %Y"
 
 include: ['/workshops', '/workshops/nime2022']
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

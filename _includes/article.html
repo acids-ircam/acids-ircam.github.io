@@ -1,0 +1,47 @@
+{%- assign current_article = include.article | 0 -%}
+{%- assign current_year = current_article.date | date: '%Y' -%}
+
+{%- if current_article != 0 -%}
+
+  <div
+    class="article_item"
+    id="{{ current_year }}"
+    style="padding-top: 10px; padding-bottom: 10px">
+
+    <h3>
+      {{ current_article.name }}
+    </h3>
+
+    {%- if current_article.arxiv -%}
+      <a href="https://arxiv.org/abs/{{ current_article.arxiv }}">
+        <img src="https://img.shields.io/badge/Paper-{{ current_article.arxiv }}-167DA4.svg?style=flat-square&logo=arXiv)" />
+      </a>
+    {%- endif -%}
+
+    {%- if current_article.code -%}
+      <a href="{{ current_article.code }}">
+        <!-- <img src="https://img.shields.io/badge/Paper-{{ current_article.arxiv }}-167DA4.svg?style=flat-square&logo=arXiv)"/> -->
+        <img src="https://img.shields.io/badge/Github-{{ current_article.code | split:"/" | last | replace: "-", "_"}}-7DA416.svg?style=flat-square&logo=Github)" />
+      </a>
+    {%- endif -%}
+
+    {%- if current_article.date -%}
+      <div class="date">
+        {{ current_article.date | date: '%d/%m/%y' }}
+      </div>
+    {%- endif -%}
+    <h4>
+
+      {{ current_article.authors }}
+    </h4>
+
+
+
+    {%- if current_article.abstract -%}
+      <div class="abstract">
+        {{ current_article.abstract }}
+      </div>
+    {%- endif -%}
+
+  </div>
+{%- endif -%}

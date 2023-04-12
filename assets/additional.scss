@@ -1,0 +1,52 @@
+---
+---
+
+.article_timeline {
+    display: inline-block;
+}
+.article_timeline a
+{
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.article_timeline a:visited
+{
+    color: #777;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.article_item {
+    padding: 0px 0px 0px 0px;    
+    color: black;
+}
+
+.article_item h3
+{
+    font-size: 1.2em;
+    font-weight: 250;
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;    
+}
+
+.article_item h4
+{
+    font-size: 1.0em;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px; 
+}
+
+.article_item .date
+{
+    padding: 0px 0px 0px 0px; 
+    font-size: 0.7em;
+}
+
+.article_item .abstract
+{
+    font-size: 0.8em;
+    text-align: justify;
+}
