@@ -18,6 +18,12 @@
       </a>
     {%- endif -%}
 
+    {%- if current_article.url -%}
+      <a href="{{ current_article.url }}">
+        <img src="https://img.shields.io/badge/Paper-link-167DA4.svg?style=flat-square" />
+      </a>
+    {%- endif -%}
+
     {%- if current_article.code -%}
       <a href="{{ current_article.code }}">
         <!-- <img src="https://img.shields.io/badge/Paper-{{ current_article.arxiv }}-167DA4.svg?style=flat-square&logo=arXiv)"/> -->
