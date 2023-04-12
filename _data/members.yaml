@@ -3,36 +3,32 @@
   site: https://esling.github.io/
   role: Researcher
 
-- name: Axel Chemla--Romeu-Santos
-  github: domkirke.github.fr
-  soundcloud: https://soundcloud.com/user-859797836
-  role: Post-doctorate
-  publis: 
-
-- name: Jean-Baptiste Dupuy
-  role: Developer
+- name: Antoine Caillon 
+  github: https://github.com/caillonantoine
+  role: Post-doctorate 
+  twitter: https://twitter.com/antoine_caillon
   
 - name: Giovanni Bindi
   role: PhD
-  
-- name: Antoine Caillon 
-  github: https://github.com/caillonantoine
-  role: PhD
-  twitter: https://twitter.com/antoine_caillon
 
 - name: Ninon Devis
   github: https://github.com/ninon-io
   site: https://ninon-io.github.io/
   role: PhD
-
-- name: Constance Douwes
-  role: PhD
   
 - name: Nils Demerle
-  role: Intern
+  role: PhD
   
 - name: David Genova
-  role: Intern
+  role: PhD 
   
 - name: Sarah Nabi
-  role: Intern
+  role: PhD 
+
+- name: Axel Chemla--Romeu-Santos
+  github: domkirke.github.fr
+  soundcloud: https://soundcloud.com/user-859797836
+  role: Honorific member
+
+- name: Constance Douwes
+  role: Honorific member
