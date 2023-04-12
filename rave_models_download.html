@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+    <title>RAVE models</title>
+    <meta charset="utf-8">
+    <meta name="author" content="IRCAM's ACIDS team">
+    <meta name="keywords" content="IRCAM, ACIDS, RAVE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔳</text></svg>">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-weight: 100;
+        }
+        body {
+            color: #424242;
+            background-color: #fdfdfd;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 50px;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+        table {
+            font-family: arial, sans-serif;
+            text-transform: capitalize;
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        td, th {
+            border: 1px solid #aaaaaa;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Rave models download page</h1>
+
+    <table id="modelsTable">
+        <tr>
+            <th>Model name</th>
+            <th>Version</th>
+            <th>Model</th>
+            <th>Release date</th>
+            <th>Author</th>
+            <th>Description</th>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        function addToPage(modelName, modelData) {
+            // Add to the table
+            var table = document.getElementById("modelsTable");
+            var row = table.insertRow(1);
+            var name = row.insertCell(0);
+            var version = row.insertCell(1);
+            var model = row.insertCell(2);
+            var release = row.insertCell(3);
+            var author = row.insertCell(4);
+            var description = row.insertCell(5);
+
+            var a = document.createElement("a");
+            a.href = "https://play.forum.ircam.fr/rave-vst-api/get_model/" + modelName;
+            a.text = modelName;
+            a.setAttribute("download", modelName + ".ts");
+
+            name.appendChild(a);
+            version.innerHTML = modelData["Version"];
+            model.innerHTML = modelData["Model"];
+            release.innerHTML = modelData["Date"];
+            author.innerHTML = modelData["Author"];
+            description.innerHTML = modelData["Description"];
+        }
+
+        const getAvailableModels = async () => {
+            const response = await fetch('https://play.forum.ircam.fr/rave-vst-api/get_available_models');
+            const data = await response.json(); //extract JSON from the http response
+            data["available_models"].forEach(element => addToPage(element, data[element]));
+        }
+
+        window.onload = function() {
+            getAvailableModels();
+        };
+    </script>
+</body>
